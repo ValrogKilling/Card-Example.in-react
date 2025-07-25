@@ -7,7 +7,7 @@ interface CardProps {
 
 export const Card : FC<CardProps> = ({ title, description }) => {
     return (
-        <div className="card bg-gray-400 text-black w-100 h-50 rounded-2xl flex justify-start p-2 items-center flex-col gap-3">
+        <div className="card bg-red-400 text-black w-100 h-50 rounded-2xl flex justify-start p-2 items-center flex-col gap-3">
             <div className="card-header w-full flex justify-between items-center">
                 <span className="text-black-500 text-xl font-bold ">{title}</span>
                 <div className="bg-black rounded-full p-2"><span className="arrow text-xl font-bold text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
